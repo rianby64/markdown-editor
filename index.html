@@ -70,7 +70,7 @@
     <script src="index.js"></script>
     <script>
       'use strict';
-      fetch('sql.md').then(response => response.text()).then(text => {
+      fetch('sql.md?t=' + new Date().toString()).then(response => response.text()).then(text => {
         editor.setValue(text);
       });
     </script>
