@@ -68,5 +68,11 @@
     <script src="lib/rawdeflate.js"></script>
     <script src = "lib/sweetalert.min.js"></script>
     <script src="index.js"></script>
+    <script>
+      'use strict';
+      fetch('sql.md').then(response => response.text()).then(text => {
+        editor.setValue(text);
+      });
+    </script>
   </body>
 </html>

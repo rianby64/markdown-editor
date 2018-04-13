@@ -10,4 +10,5 @@ markdown-editor-*.zip
 dist/src/
 dist/pkg/
 *.pkg.tar.xz
-
+*.md
+package-lock.json
